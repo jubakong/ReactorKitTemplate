@@ -1,6 +1,6 @@
 # ReactorKitTemplate
 
-- Generate Reactorkit file template faster and easier wtih this
+- Generate ReactorKit file template faster and easier wtih this
 
 - All you need to do is 
 1. Download `ReactorKit.xctemplate`
