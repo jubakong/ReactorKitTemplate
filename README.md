@@ -4,4 +4,4 @@
 
 - All you need to do is add this file template with path of: 
 
-#### ~/Library/Developer/Xcode/Templates/File Templates/ReactorKit
+`~/Library/Developer/Xcode/Templates/File Templates/ReactorKit`
