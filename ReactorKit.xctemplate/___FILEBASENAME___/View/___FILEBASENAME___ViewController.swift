@@ -57,7 +57,7 @@ class ___VARIABLE_moduleName___ViewController: UIViewController, StoryboardView 
       .subscribe(onNext: { [weak self] _ in
         guard let `self` = self else { return }
         
-        self.defaultAlert(message: "네트워크 접속이 원활하지 않습니다. 잠시 후에 다시 시도해주세요.", rightButtonTitle: "확인") {
+        self.defaultAlert(message: "문제가 발생했습니다. 다시시도해주세요 :) ", rightButtonTitle: "확인") {
           self.dismiss(animated: true, completion: nil)
         }
       })
