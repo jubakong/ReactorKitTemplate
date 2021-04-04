@@ -1,6 +1,6 @@
 # ReactorKitTemplate
 
-## Purpose To Share ReactorKit Template
+## Purpose of using ReactorKit Template
 - Generate ReactorKit file template faster and easier wtih this
 - It is essential to save your time while coding
 
