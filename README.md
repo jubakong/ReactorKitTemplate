@@ -5,10 +5,10 @@
 - It is essential to save your time while coding
 
 ## All You Need To Do is 
-1. Download `ReactorKit.xctemplate`
-2. add the downloaded template file with path of: 
+- Download `ReactorKit.xctemplate`
+- add the downloaded template file with path of: 
    `~/Library/Developer/Xcode/Templates/File Templates/ReactorKit`
 
 ## Concnern
-1. How to solve view transition?
-2. How to solve Error Handling in a better way?
+- How to solve view transition?
+- How to solve Error Handling in a better way?
