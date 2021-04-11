@@ -13,4 +13,4 @@
 - How to solve view transition?
 - How to solve Error Handling in a better way?
 - How to handle if same message/model comes in?
-`ex., We need to show alert message whenever clients press button`
+- `ex., We need to show alert message whenever clients press a button`
