@@ -11,6 +11,7 @@
 
 ## Concnern
 - How to solve view transition? (Router? Coordinator? Injection?)
-- How to solve Error Handling in a better way?
+- How to solve Error Handling in a better way? 
+- `ex., Making RevisionedError
 - How to handle if same message/model comes in?
 - `ex., We need to show alert message whenever clients press a button`
