@@ -10,7 +10,7 @@
 - `~/Library/Developer/Xcode/Templates/File Templates/ReactorKit`
 
 ## Concnern
-- How to solve view transition?
+- How to solve view transition? (Router? Coordinator? Injection?)
 - How to solve Error Handling in a better way?
 - How to handle if same message/model comes in?
 - `ex., We need to show alert message whenever clients press a button`
