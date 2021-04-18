@@ -6,7 +6,7 @@
 
 ## All You Need To Do is 
 - Download `ReactorKit.xctemplate`
-- add the downloaded template file with path of: 
+- Add the downloaded template file with path of: 
 - `~/Library/Developer/Xcode/Templates/File Templates/ReactorKit`
 
 ## Concnern
