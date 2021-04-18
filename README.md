@@ -12,6 +12,6 @@
 ## Concnern
 - How to solve view transition? (Router? Coordinator? Injection?)
 - How to solve Error Handling in a better way? 
-- `ex., Making RevisionedError
+- `ex., https://github.com/ReactorKit/ReactorKit/issues/122`
 - How to handle if same message/model comes in?
 - `ex., We need to show alert message whenever clients press a button`
