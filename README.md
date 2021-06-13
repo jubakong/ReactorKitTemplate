@@ -9,7 +9,7 @@
 - Add the downloaded template file with path of: 
 - `~/Library/Developer/Xcode/Templates/File Templates/ReactorKit`
 
-## Concnern
+## Concern
 - How to solve view transition? (Router? Coordinator? Injection?)
 - How to solve Error Handling in a better way? 
 https://github.com/ReactorKit/ReactorKit/issues/122
