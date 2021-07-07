@@ -9,6 +9,9 @@
 - Add the downloaded template file with path of: 
 - `~/Library/Developer/Xcode/Templates/File Templates/ReactorKit`
 
+### OR 
+- Just run `install-xcode-template.sh`
+
 ## Concern
 - How to solve view transition? (Router? Coordinator? Injection?)
 - How to solve Error Handling in a better way? 
