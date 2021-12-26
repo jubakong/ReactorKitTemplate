@@ -41,25 +41,28 @@ class ___VARIABLE_moduleName___ViewController: UIViewController, StoryboardView 
     //State
     
     reactor.state.map { $0.isLoading }
-      .distinctUntilChanged()
-      .subscribe(onNext: { isLoading in
-        if isLoading == true {
-          ProgressView.shared.show()
-        } else {
-          ProgressView.shared.dissmiss()
-        }
-      })
-      .disposed(by: disposeBag)
+    .distinctUntilChanged()
+    .subscribe(onNext: { isLoading in
+      if isLoading == true {
+        ProgressView.shared.show()
+      } else {
+        ProgressView.shared.dissmiss()
+      }
+    })
+    .disposed(by: disposeBag)
     
     reactor.pulse(\.$isError)
       .compactMap { $0 }
       .subscribe(onNext: { [weak self] _ in
         guard let `self` = self else { return }
-        self.defaultAlert(message: "문제가 발생했습니다. 다시시도해주세요 :) ", rightButtonTitle: "확인") {
+        self.defaultAlert(
+          message: "문제가 발생했습니다. 다시시도해주세요 :) ",
+          rightButtonTitle: "확인"
+        ) {
           self.dismiss(animated: true, completion: nil)
         }
       })
       .disposed(by: disposeBag)
   }
-
+  
 }
