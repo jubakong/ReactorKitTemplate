@@ -51,12 +51,10 @@ class ___VARIABLE_moduleName___ViewController: UIViewController, StoryboardView 
       })
       .disposed(by: disposeBag)
     
-    reactor.state.map { $0.setError }
-      .filterNil()
-      .distinctUntilChanged()
+    reactor.pulse(\.$isError)
+      .compactMap { $0 }
       .subscribe(onNext: { [weak self] _ in
         guard let `self` = self else { return }
-        
         self.defaultAlert(message: "문제가 발생했습니다. 다시시도해주세요 :) ", rightButtonTitle: "확인") {
           self.dismiss(animated: true, completion: nil)
         }
