@@ -21,14 +21,14 @@ final class ___VARIABLE_moduleName___ViewReactor: Reactor {
   
   struct State {
     var isLoading: Bool = false
-    var setError: RevisionedError?
+    @Pulse var setError: Error?
   }
   
   let initialState: State = State()
   
   func mutate(action: Action) -> Observable<Mutation> {
     switch action {
-    
+      
     }
   }
   
@@ -37,15 +37,11 @@ final class ___VARIABLE_moduleName___ViewReactor: Reactor {
     
     switch mutation {
     case .setError(let isError):
-      newState.setError = RevisionedError(revision: (newState.setError?.revision ?? 0) + 1,
-                                          error: isError as NSError
-      )
+      newState.setError = isError
       
     case .setLoading(let isLoading):
       newState.isLoading = isLoading
-      
     }
-    
     return newState
   }
 }
