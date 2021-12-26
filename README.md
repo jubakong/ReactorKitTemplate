@@ -1,3 +1,5 @@
+<img alt="ReactorKit" src="https://cloud.githubusercontent.com/assets/931655/25277625/6aa05998-26da-11e7-9b85-e48bec938a6e.png" style="max-width: 100%">
+
 # ReactorKitTemplate
 
 ## Purpose of Using ReactorKit File Template
