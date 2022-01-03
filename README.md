@@ -18,5 +18,5 @@
 - [ ] How to solve view transition? (Router? Coordinator? Injection?)
 - [x] How to solve Error Handling in a better way? (@Pulse)
 - https://github.com/ReactorKit/ReactorKit/issues/122
-- [x] How to handle if same message/model comes in? (@Pulse)
+- [x] How to handle if same message/model comes in? (solved with @Pulse)
 - `ex., We need to show alert message whenever clients press a button`
