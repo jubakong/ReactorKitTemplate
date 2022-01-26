@@ -12,7 +12,7 @@
 - `~/Library/Developer/Xcode/Templates/File Templates/ReactorKit`
 
 ### OR 
-- Just run `install-xcode-template.sh`
+`$ install-xcode-template.sh`
 
 ## Concern
 - [ ] How to solve view transition? (Router? Coordinator? Injection?)
